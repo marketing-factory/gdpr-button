@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if (LOW == digitalRead(buttonPin)) {
-    for (int i = 0; i < sizeof(lockSequence); i++) {
+    for (int i = 0; i < 3; i++) {
       Keyboard.press(lockSequence[i]);
     }
     delay(100);
