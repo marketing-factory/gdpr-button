@@ -19,7 +19,7 @@ void loop() {
     for (int i = 0; i < 3; i++) {
       Keyboard.press(lockSequence[i]);
     }
-    delay(100);
+    delay(1000);
     Keyboard.releaseAll();
   }
 
