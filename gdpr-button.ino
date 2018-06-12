@@ -10,8 +10,7 @@ const char lockSequence[] = {
 void setup() {
   // put your setup code here, to run once:
   pinMode(buttonPin, INPUT_PULLUP);
-
-  Keyboard.begin();
+  digitalWrite(buttonPin, HIGH);
 }
 
 void loop() {
